@@ -26,7 +26,7 @@ create: function() {
 ```
 ## Configuration
 
-![](https://raw.githubusercontent.com/DeV1doR/phaser.scoreboard/master/phaser.scoreboard.png)
+![]()
 
 - **width**
 - **height**
