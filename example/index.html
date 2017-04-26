@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ScoreBoard example</title>
+        <style>
+            body {
+                background-color: #333;
+                margin:0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <script src="phaser.min.js"></script>
+        <script src="../ScoreBoard.js"></script>
+        <script type="text/javascript">
+            var scoreBoard;
+            var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'scoreboard-example', { preload: preload, create: create, update: update });
+            function preload() {
+
+            }
+
+            function create() {
+                scoreBoard = new ScoreBoard(game);
+                var dataArr = ["vaxXxa - 4.17k", "DeV1doR - 2.405k"];
+
+                scoreBoard.draw(dataArr);
+            }
+
+            function update() {
+
+            }
+        </script>
+    </body>
+</html>
