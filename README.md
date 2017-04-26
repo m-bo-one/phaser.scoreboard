@@ -66,10 +66,6 @@ this is the default configuration :
 ```
 
 ## Methods
-
-### setPercent(value):
-
-set the width of the bar to the passed percentage value.
  
 ### redraw(dataArr): 
  redraw existing cells and add || remove another
