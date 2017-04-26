@@ -26,7 +26,7 @@ create: function() {
 ```
 ## Configuration
 
-![]()
+![](http://image.prntscr.com/image/6e48e479c9a44a728a5f57b9071db122.png)
 
 - **width**
 - **height**
