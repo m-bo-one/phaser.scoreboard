@@ -1,4 +1,4 @@
-# Phaser.Scorebar
+# Phaser.Scoreboard
 
 An attempt to create a simple and customizable scorebar for Phaser.js games.
 Inspired by:
@@ -8,26 +8,25 @@ Inspired by:
 
 ### 1 - Import HealthBar file
 Download script from github:
-[click here](https://raw.githubusercontent.com/DeV1doR/phaser.scorebar/master/ScoreBar.js)
-next just include the ScoreBar.js in the html file.
+[click here](https://raw.githubusercontent.com/DeV1doR/phaser.scorebar/master/ScoreBoard.js)
+next just include the ScoreBoard.js in the html file.
 example : 
 ``` html
-<script src="path/to/ScoreBar.js"></script>
+<script src="path/to/ScoreBoard.js"></script>
 ```
 
-### 2 - create a healthBar :
+### 2 - create a scoreBoard :
 
-in the game/state create function instantiate a Healthbar like this: 
+in the game/state create function instantiate a ScoreBoard like this: 
 
 ```javascript
 create: function() {  
-  var barConfig = {x: 200, y: 100};
-  this.myHealthBar = new HealthBar(this.game, barConfig);
+  this.scoreBoard = new ScoreBoard(this.game);
 }
 ```
 ## Configuration
 
-![](https://raw.githubusercontent.com/DeV1doR/phaser.scorebar/master/phaser.scorebar.png)
+![](https://raw.githubusercontent.com/DeV1doR/phaser.scoreboard/master/phaser.scoreboard.png)
 
 - **width**
 - **height**
