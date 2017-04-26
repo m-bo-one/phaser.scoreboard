@@ -66,6 +66,9 @@ this is the default configuration :
 ```
 
 ## Methods
+
+### setPosition(x, y):
+ change position of scoreboard
  
 ### redraw(dataArr): 
  redraw existing cells and add || remove another
